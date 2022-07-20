@@ -5,7 +5,7 @@ import WorldMap from './WorldMap'
 export default function App() {
   return (
     <View style={{flex:1}}>
-      <WorldMap onSelectContinent={(el) => alert(el)} color='black'  selectedColor="red" />
+      <WorldMap onSelectContinent={(el) => alert(el)} color='#BABABA'  selectedColor="red" />
     </View>
   );
 }

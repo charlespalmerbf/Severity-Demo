@@ -12,6 +12,8 @@ target 'Severity' do
     :hermes_enabled => false
   )
 
+  pod 'lottie-react-native', :path => '../node_modules/lottie-react-native'
+
   target 'SeverityTests' do
     inherit! :complete
     # Pods for testing
